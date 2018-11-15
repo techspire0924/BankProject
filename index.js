@@ -50,7 +50,7 @@ function makeCommit(date) {
 async function createFakeCommits() {
 	const startDate = moment("2017-05-06");
 	const endDate = moment("2025-01-02");
-	const totalCommits = 10000; // Adjust number of commits as needed
+	const totalCommits = 1000; // Adjust number of commits as needed
 
 	// Ensure the repository is clean and initialized
 	await git.init();
